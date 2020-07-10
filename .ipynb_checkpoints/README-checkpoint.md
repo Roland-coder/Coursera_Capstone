@@ -32,25 +32,30 @@ For this project we will focus on using data that is related to the conditions t
 
 We performed exploratory data analysis on the data to understand the data better. After getting the Toronto location data using geopy and added all the various neighborhoods to it as can be seen below.
 
-![Screenshot](map.png)
-![Alt text](https://github.com/Roland-coder/Coursera_Capstone/blob/master/map.png?raw=true)
+<!-- ![Screenshot](map.png) -->
+![Alt text](https://github.com/Roland-coder/Coursera_Capstone/blob/master/map.PNG?raw=true)
 
 After that we continued exploring the data and merged the different columns that were in the different datasets to a single dataframe
 
-![Screenshot](merged.png)
-![Alt text]("merged.png")
+<!-- ![Screenshot](merged.png) -->
+![Alt text](https://github.com/Roland-coder/Coursera_Capstone/blob/master/merged.PNG?raw=true)
 
 Later removed features that were not relevant and grouped by neighborhood in order to calculate the number of restaurants in each area and to check if there were chinese restaurants there 
 
-![Screenshot](chinese.png)
+<!-- ![Screenshot](chinese.png) -->
+![Alt text](https://github.com/Roland-coder/Coursera_Capstone/blob/master/chinese.PNG?raw=true)
 
 from the dataframe we saw that there are very few locations with chinese restaurants in them
 
-![Screenshot](bar.png)
+<!-- ![Screenshot](bar.png) -->
+![Alt text](https://github.com/Roland-coder/Coursera_Capstone/blob/master/bar.PNG?raw=true)
+<!-- ![Alt text](https://github.com/Roland-coder/Coursera_Capstone/blob/master/bar.PNG) -->
 
 We later scale the data and try using the elbow method to check the optimal value to be used in the kmeans clustering algorithm using different inertia values from 1 to 20
 
-![Screenshot](clusters.png)
+<!-- ![Screenshot](clusters.png) -->
+![Alt text](https://github.com/Roland-coder/Coursera_Capstone/blob/master/clusters.PNG?raw=true)
+
 
 From the above visualization we then decided to move forward with five clusters in our kmeans algorithm and eventually came up with our clusters
 
