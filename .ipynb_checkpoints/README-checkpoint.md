@@ -33,10 +33,12 @@ For this project we will focus on using data that is related to the conditions t
 We performed exploratory data analysis on the data to understand the data better. After getting the Toronto location data using geopy and added all the various neighborhoods to it as can be seen below.
 
 ![Screenshot](map.png)
+![Alt text]("map.png")
 
 After that we continued exploring the data and merged the different columns that were in the different datasets to a single dataframe
 
 ![Screenshot](merged.png)
+![Alt text]("merged.png")
 
 Later removed features that were not relevant and grouped by neighborhood in order to calculate the number of restaurants in each area and to check if there were chinese restaurants there 
 
